@@ -1,7 +1,7 @@
 @media only screen and (max-width: 767px) {
     .main-header {
         grid-template-columns: 1fr 1fr;
-        grid-auto-rows: minmax(100, auto);
+        grid-auto-rows: minmax(10px, auto);
         height: 540px;
     }
     
