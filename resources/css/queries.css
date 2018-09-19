@@ -122,6 +122,24 @@
     }
 }
 
+@media only screen 
+    and (max-width: 480px)
+    and (orientation: portrait){
+    
+    .project-section p {
+        text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
+    } 
+        
+    .about p{
+        text-align:left;
+        word-spacing: 0.085rem;
+        padding-right: 10px;
+    }  
+
+}
+
 
 
 
