@@ -357,15 +357,19 @@ h2 {
     list-style: none;
 }
 
-.footer-section ion-icon{
-    font-size: 1.3rem;
-    transition: all 500ms;
-    padding-left: 20px;
-}
-
 .footer-section li a:link,
 .footer-section li a:visited {
+    font-size: 1.3rem;
+    transition: all 500ms;
     color: white;
+}
+
+.footer-section li a:first-child {
+    padding-right: 10px;
+}
+
+.footer-section li a:last-child {
+    padding-left: 10px;
 }
 
 .footer-section li a:hover,
@@ -373,10 +377,6 @@ h2 {
     color: #E47206;
 }
 
-.footer-section ion-icon:hover,
-.footer-section ion-icon:active{
-    color: #E47206;
-}
 
 
 
