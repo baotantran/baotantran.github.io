@@ -2,430 +2,169 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Food delivery service for busy people with mission to bring helathy meal to as many people as possible">
-        
-        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css"><link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <title>Bao Tran's Porfolio</title>
         <link rel="stylesheet" href="resources/css/style.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        <link rel="stylesheet" href="resources/css/style.css" type="text/css">
         <link rel="stylesheet" href="resources/css/queries.css" type="text/css">
-        <title>Omnifood</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
-        <link rel="manifest" href="/resources/favicons/site.webmanifest">
-        <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">
+        
     </head>
     <body>
-       <header> <!-- create meaning beside a simple div| tell the serach engine this section is header -->
-           <nav>
-               <div class="row">
-                   <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
-                   <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
-                   <ul class="main-nav">
-                       <li><a href="#features">Food Delivery</a></li>
-                       <li><a href="#works">How it Works</a></li>
-                       <li><a href="#cities">Our Cities</a></li>
-                       <li><a href="#plans">Sign Up</a></li>
-                   </ul>
-               </div>
-           </nav>
-           <div class="hero-text-box">
-                <h1>Goodbye junk food. <br>Hello super healthy meals.</h1>
-                <a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry</a>
-                <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
-           </div>
-       </header>
-        
-        <section class="section-features js--section-features" id="features">
-            <div class="row">
-                
-                <h2>Get food fast &mdash; not fast food</h2>
-                <p class="long-copy">
-                    Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
-                </p>
+        <header class="main-header row">
+                        <div class="page-header"></div>
+
+            <div class="author-image">
+                <img src="resources/img/profilePicture.jpg" alt="Author's image" class="author">
+                <h3>Bao Tran</h3>
+                <p>Embedded Software Engineer</p>
+                <a href="https://github.com/baotantran/" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/baotantran/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
             </div>
-            <div class="row">
-                    <div class="col span-1-of-4 box">
-                        <ion-icon name="infinite"></ion-icon>
-                        <h3>Up to 365 days/year</h3>
+            <div class="contact-info">
+                <ul >
+                    <li>
+                        <h3>Software Engineer</h3>
+                    </li>
+                    <li>
+                        <h2>Bao T. Tran</h2>
+                    </li>
+                    <li>
                         <p>
-                            Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+                            Mobile: (360) 685 - 6934
                         </p>
-                    </div>
-               
-                    <div class="col span-1-of-4 box">
-                        <ion-icon name="time"></ion-icon>
-                        <h3>Ready in 20 minutes</h3>
                         <p>
-                            You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
+                            Email: Baotantran92@gmail.com
                         </p>
-                    </div>
-                
-                    <div class="col span-1-of-4 box">
-                        <ion-icon name="nutrition"></ion-icon>
-                        <h3>100% organic</h3>
-                        <p>
-                            All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
-                        </p>
-                    </div>
-                    <div class="col span-1-of-4 box">
-                        <ion-icon name="cart"></ion-icon>
-                        <h3>Order anything</h3>
-                        <p>
-                            We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
-                        </p>
-                    </div>
+                    </li>
+                </ul>
             </div>
-            
-        </section>
-        <section class="section-meals">
-            <ul class="meals-showcase">
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
-                    </figure>
-                </li>  
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/4.jpg" alt="Autumn pumpkin soup">
-                    </figure>
-                </li>
-                
-            </ul>
-            <ul class="meals-showcase clearfix">
-                <li>
-                     <figure class="meal-photo">
-                        <img src="resources/img/5.jpg" alt="Paleo beef steak with vegetables">
-                     </figure>
-                </li>
-                <li>
-                     <figure class="meal-photo">
-                        <img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
-                    </figure>
-                </li>              
-                <li>
-                     <figure class="meal-photo">
-                        <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon">
-                     </figure>
-                </li>
-                <li>
-                     <figure class="meal-photo">
-                        <img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
-                     </figure>
-                </li>   
-            </ul>
-        </section>
-        
-        
-        <section class="section-steps" id="works">
-            <div class="row">
-                <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+        </header>
+        <section class="skills-about row">
+            <div class="left-column sticky">
+                <ul>
+                    <li>Java SE 8</li>
+                    <li>C</li>
+                    <li>Verilog </li>
+                    <li>JavaScript</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>OOP</li>
+                    <li>Bash</li>
+                    <li>Data Structures</li>  
+                    <li>Algorithms</li>
+                    <li>Computer Architecture</li>
+                    <li>Embedded Software</li>
+                    <li>Signal Processing</li>                   
+                    <li>Digital Circuit Design</li>
+                    <li>Multithreading</li>
+                    <li>Networking/TCP</li>
+                    <li>FPGA</li>
+                    <li>Quartus Prime</li>
+                    <li>SignalTap</li>
+                    <li>Git/GitHub</li>
+                    <li>Front end</li>
+                    <li>GNU/Linux </li>  
+                    <li>3D Design &amp; Print</li>         
+                </ul>    
             </div>
-            <div class="row">
-                <div class="col span-1-of-2 step-box">
-                    <img class="app-screen" alt="app screen iphone" src="resources/img/app-iPhone.png">
-                </div>
-                <div class="col span-1-of-2 step-box">
-                    <div class="works-step">
-                        <div>1</div>
-                        <p>Choose the subscription plan that best fits your needs and sign up today.</p>
-                    </div>
-                    <div class="works-step">
-                        <div>2</div>
-                        <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
-                    </div>
-                    <div class="works-step">
-                        <div>3</div>
-                        <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
-                    </div>
-                    <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="link to ios app"></a>
-                    <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="link to ios app"></a>
-                </div>
-            </div>
-        </section>
-        
-        <section class="section-cities" id="cities">
-            <div class="row">
-                <h2>We're currently in these cities</h2>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/img/lisbon-3.jpg" alt="lisbon">
-                    <h3>Lisbon</h3>
-                    <div class="city-feture">
-                        <ion-icon name="person"></ion-icon>
-                        1600+ happy eaters 
-                    </div>
-                    <div class="city-feture">
-                        <ion-icon name="star"></ion-icon>
-                        60+ top chefs
-                    </div>
-                    <div class="city-feture">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                        <a href="#">@omnifood_lx</a>
-                    </div>               
-                </div>   
-                <div class="col span-1-of-4 box">
-                    <img src="resources/img/san-francisco.jpg" alt="San Francisco">
-                    <h3>San Francisco</h3>
-                    <div class="city-feture">
-                        <ion-icon name="person"></ion-icon>
-                        3700+ happy eaters
-                    </div>
-                    <div class="city-feture">
-                        <ion-icon name="star"></ion-icon>
-                        160+ top chefs
-                    </div>
-                    <div class="city-feture">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                        <a href="#">@omnifood_sf</a>
-                    </div>               
-                </div> 
-                <div class="col span-1-of-4 box">
-                    <img src="resources/img/berlin.jpg" alt="Berlin">
-                    <h3>Berlin</h3>
-                    <div class="city-feture">
-                        <ion-icon name="person"></ion-icon>
-                        2300+ happy eaters
-                    </div>
-                    <div class="city-feture">
-                        <ion-icon name="star"></ion-icon>
-                        110+ top chefs
-                    </div>
-                    <div class="city-feture">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                        <a href="#">@omnifood_berlin</a>
-                    </div>               
-                </div> 
-                 <div class="col span-1-of-4 box">
-                    <img src="resources/img/london.jpg" alt="London">
-                    <h3>London</h3>
-                    <div class="city-feture">
-                        <ion-icon name="person"></ion-icon>
-                        1200+ happy eaters
-                    </div>
-                    <div class="city-feture">
-                        <ion-icon name="star"></ion-icon>
-                        50+ top chefs
-                    </div>
-                    <div class="city-feture">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                        <a href="#">@omnifood_london</a>
-                    </div>               
-                </div> 
-            </div>
-        </section>
-        
-        <section class="section-testimonials">
-            <div class="row">
-                <h2>Our customers can't live without us</h2>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-3">
-                    <blockquote>
-                        Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                        <cite><img src="resources/img/customer-1.jpg" alt="Customer 1's image">Alberto Duncan</cite>
-                    </blockquote>
-                </div>
-                <div class="col span-1-of-3">
-                    <blockquote>
-                        Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-                        <cite><img src="resources/img/customer-2.jpg" alt="Customer 2's image">Joana Silva</cite>
-                    </blockquote>
-                </div>
-                <div class="col span-1-of-3">
-                    <blockquote>
-                        I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-                        <cite><img src="resources/img/customer-3.jpg" alt="Customer 3's image">Milton Chapman</cite>
-                    </blockquote>
-                </div>
-            </div>
-        </section>
-        
-        <section class="section-plans js--section-plans" id="plans">
-            <div class="row">
-                <h2>Start eating healthy today</h2>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-3">
-                    <div class="plan-box">
-                        <div>
-                            <h3>Premeium</h3>
-                            <p class="plan-price">$399 <span>/ month</span></p>
-                            <p class="plan-price-meal">That’s only 13.30$ per meal</p>
-                        </div>
-                        <div>
-                            <ul>
-                                <li><ion-icon name="checkmark"></ion-icon>1 meal every day</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Order 24/7</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Access to newest creations</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Free delivery</li>
-                            </ul>
-                        </div>
-                        <div>
-                           <a href="#" class="btn btn-full">Sign up now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col span-1-of-3">
-                    <div class="plan-box">
-                        <div>
-                            <h3>Pro</h3>
-                            <p class="plan-price">$149 <span>/ month</span></p>
-                            <p class="plan-price-meal">That’s only 14.90$ per meal</p>
-                        </div>
-                        <div>
-                            <ul>
-                                <li><ion-icon name="checkmark"></ion-icon>1 meal 10 days/month</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Order 24/7</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Access to newest creations</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Free delivery</li>
-                            </ul>
-                        </div>
-                        <div>
-                           <a href="#" class="btn btn-ghost">Sign up now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col span-1-of-3">
-                    <div class="plan-box">
-                        <div>
-                            <h3>Starter</h3>
-                            <p class="plan-price">$19 <span>/ meal</span></p>
-                            <p class="plan-price-meal">&nbsp;</p>
-                        </div>
-                        <div>
-                            <ul>
-                                <li><ion-icon name="checkmark"></ion-icon>1 meal</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Order from 8 am to 12 pm</li>
-                                <li><ion-icon name="close"></ion-icon></li>
-                                <li><ion-icon name="close"></ion-icon>Free delivery</li>    
-                            </ul>
-                        </div>
-                        <div>
-                           <a href="#" class="btn btn-ghost">Sign up now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section class="section-form"> 
-            <div class="row">
-                <h2> We are happy to hear from you</h2>
-            </div>
-            <div class="row">
-                <form method="post" action="#" class="contact-form">
-                    <div class="row">
-                        <div class="col span-1-of-3 text">
-                            <label for="name">Name</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <input type="text" placeholder="Enter your name" name="name" id="name" required>
-                        </div>
-                    </div>
-                     <div class="row">
-                        <div class="col span-1-of-3 text">
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <input type="email" placeholder="Enter your email" name="email" id="email" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-3 text">
-                            <label for="find-us">How did you find us?</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <select name="find-us" id="find-us">
-                                <option value="Linkedin" selected>Linkedin</option>
-                                <option value="search">Search engine</option>
-                                <option value="other">Other</option>
-                            </select> 
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label>Newsletter</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <input type="checkbox" name="news" id="news" checked> Yes, please
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label>Drop us a line</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <textarea name="message" placeholder="Your message"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label>&nbsp;</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <input type="submit" value="Send it!">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-        
-        <footer>
-            <div class="row">
-                <div class="col span-1-of-2">
-                    <ul class="footer-nav">
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">Ios App</a></li>
-                        <li><a href="#">Android App</a></li>
-                    </ul>
-                </div>
-                <div class="col span-1-of-2">
-                    <ul class="social-links">
-                         <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                         <li><a href="#"><ion-icon name="logo-googleplus"></ion-icon></a></li>
-                         <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                         <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
+            <div class="about">
+                <h3>About Me...</h3>
                 <p>
-                    Copyright &copy; 2018 by Omnifood. All rights reserved.
+                   When I was introduced to coding in UW (EE – Embedded System), I started to develop a keen interest in the software side of thing. After applying coding to physical hardware in subsequent courses and witness it powering the entire hardware’s operation, I realized my passion for software development along with hardware. I want to have the knowledge to develop a product with bare minimum resources both in term of software and hardware.
+                </p>
+                <p>
+                    I have a wide range of interests in the realm of software development. In university, EE’s curriculum focuses mostly on hardware and hardware-specific languages (Verilog, some C, Java). Currently, I’m expanding my tool box by trying some web development. I believe in continuous learning as I strive to further improve my skills each day and learn new technologies through working on personal projects, taking online course.
+                </p>
+                <p>
+                    I have a solid understanding of OOP concepts in Java SE, C, Verilog and working knowledge of vanilla JavaScript, HTML5, CSS3. In previous group projects, I'm always a dependable coder and a productive team member.
                 </p>
             </div>
+        <section class="project-section row">  
+            <div class="project-showcase">
+                <h3>Projects</h3>
+                <div>
+                    <figure>
+                        <a href="https://github.com/baotantran/Robotic-hand-playing-piano" target="_blank"><img src="resources/img/project1-min.jpg" alt="Robotic Hand Playing Piano"></a>
+                    </figure>
+                    <h6>
+                        <a href="https://github.com/baotantran/Robotic-hand-playing-piano" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>Robotic Hand playing piano
+                    </h6>
+                    <p>
+                        Robotic hand from scratch implemented C, 3D design, Microcontroller, I2C, RS-232, Beaglebone...
+                    </p>
+                </div>
+                <div>
+                    <figure>
+                        <a href="https://github.com/baotantran/GraphicServer" target="_blank"><img src="resources/img/project2-min.jpg" alt="Messenger With Synchronous Video Player"></a>
+                    </figure>
+                    <h6>
+                        <a href="https://github.com/baotantran/GraphicServer" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>Messenger With Synchronous Video Player
+                    </h6>
+                    <p>
+                        Messeger App that allows friend to share video watching experience. Implemented multithreading, socket...
+                    </p>
+                </div>
+                <div>
+                    <figure>
+                        <a href="https://github.com/baotantran/Microprocessor-Based-Data-Collection-System" target="_blank"><img src="resources/img/project3-min.jpg" alt="Microprocessor Based Data Collection System"></a>
+                    </figure>
+                    <h6>
+                        <a href="https://github.com/baotantran/Microprocessor-Based-Data-Collection-System" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>Microprocessor Based Data Collection System
+                    </h6>
+                    <p>
+                        General data collection system .Implemented SRAM, PIC18F25K22, oscilloscope...
+                    </p>
+                </div>
+                <div>
+                    <figure>
+                        <a href="https://github.com/baotantran/Mock-up-website" target="_blank"><img src="resources/img/project5-min.jpg" alt="Static Website"></a>
+                    </figure> 
+                    <h6>
+                        <a href="https://github.com/baotantran/Mock-up-website" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>Static Website</h6>
+                    <p>
+                        Mock-up website.
+                    </p>
+                </div>      
+                <div>
+                    <figure>
+                        <a href="#"><img src="resources/img/project4-min.jpg" alt="Remote Controlled Tank"></a>
+                    </figure> 
+                    <h6>
+                        Remote Controlled Tank</h6>
+                    <p>
+                        Remote controlled tank with obstacle avoidance system.  
+                    </p>
+                </div> 
+                 
+                </div>
+        </section>
+        </section>
+        <footer class="footer-section">
+            <ul>
+                <li>
+                    <a href="https://github.com/baotantran/" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                </li>
+                <li>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </li>
+            </ul>
+           
         </footer>
-        <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv-printshiv.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
-        <script src="vendors/js/jquery.waypoints.min.js"></script>
-        <script src="resources/js/script.js"></script>
-    </body>
-    
+        </body>
+        
+        <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
 </html>
-
-<!--
-
-
--->
-
