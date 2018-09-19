@@ -359,9 +359,18 @@ h2 {
 
 .footer-section ion-icon{
     font-size: 1.3rem;
-    color: white;
     transition: all 500ms;
     padding-left: 20px;
+}
+
+.footer-section li a:link,
+.footer-section li a:visited {
+    color: white;
+}
+
+.footer-section li a:hover,
+.footer-section li a:active {
+    color: #E47206;
 }
 
 .footer-section ion-icon:hover,
