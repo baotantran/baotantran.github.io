@@ -316,6 +316,11 @@ h2 {
     font-size: 0.75rem;
 }
 
+.project-section ion-icon{
+    vertical-align: middle;
+    padding-bottom: 7px;
+}
+
 .project-section a:link,
 .project-section a:visited{
     line-height: 0.8rem;
