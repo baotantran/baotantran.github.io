@@ -314,6 +314,8 @@ h2 {
 .project-section h6 {
     padding-top: 15px;
     font-size: 0.75rem;
+    line-height: 0.1rem;
+    padding-bottom: 0.5rem;
 }
 
 .project-section ion-icon{
@@ -323,7 +325,6 @@ h2 {
 
 .project-section a:link,
 .project-section a:visited{
-    line-height: 0.8rem;
     color: black;
     text-decoration: none;
     font-size: 1.2rem;
@@ -338,8 +339,9 @@ h2 {
 }
 
 .project-section p {
+    text-align: center;
     padding-top: 5px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     padding-bottom: 20px;
 }
 
